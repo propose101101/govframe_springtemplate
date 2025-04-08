@@ -8,4 +8,6 @@ import egovframework.example.sample.service.MemberVO;
 @Mapper
 public interface MemberMapper {
     void insertMember(MemberVO vo);
+    MemberVO loginMember(MemberVO vo);
 }
+
